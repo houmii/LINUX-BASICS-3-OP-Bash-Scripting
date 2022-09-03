@@ -1,3 +1,4 @@
+
 # ask text from the user
 # reverse the text from end to start
 # echo reversed text
