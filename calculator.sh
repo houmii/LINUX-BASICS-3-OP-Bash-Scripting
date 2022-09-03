@@ -1,3 +1,6 @@
+# Make Bourne Shell program that calculates given arguments (operand, operator and operand) like (3 + 4)  and echos calculation with words like “3 multiplied by 4 equals 12” . Operators to handle must be + (plus) - (minus) * (multiply) and / (divide). Remember shell globbing when testing multiply.
+# You must use case structure and may use arithmetic extension $((EXPR)) to calculate numbers.
+
 #!/bin/sh
 #
 clear
