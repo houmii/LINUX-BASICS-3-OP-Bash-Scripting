@@ -1,3 +1,10 @@
+# Make Bourne Shell program that will:
+# ask employee names from the user
+# calculate serial ID for employee starting first from 1 and continuing later from number of employees plus one
+# store ID and name of employee to file named employee.csv in one line,  values separated by semicolon
+# end when the user gives “0” instead of a name. 
+# in the end print all employees from the file.
+
 #!/bin/sh
 #
 clear
