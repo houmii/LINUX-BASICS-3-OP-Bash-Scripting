@@ -25,16 +25,16 @@ echo -n -e "\nNow enter the operator + , - , * , /   : " ; read operaattori
 
 case $operaattori in
     +)
-    echo "scale=2; $luku1$operaattori$luku2" | bc
+    echo -n -e "\n$luku1 plus $luku2 is equal to " ; echo "scale=2; $luku1$operaattori$luku2" | bc
     ;;
     -)
-    echo "scale=2; $luku1$operaattori$luku2" | bc
+    echo -n -e "\n$luku1 minus $luku2 is equal to " ; echo "scale=2; $luku1$operaattori$luku2" | bc
     ;;
     \*)
-    echo "scale=2; $luku1$operaattori$luku2" | bc
+    echo -n -e "\n$luku1 multiplied by $luku2 is equal to " ; echo "scale=2; $luku1$operaattori$luku2" | bc
     ;;
     /)
-    echo "scale=2; $luku1$operaattori$luku2" | bc
+    echo -n -e "\n$luku1 divided by $luku2 is equal to " ; echo "scale=2; $luku1$operaattori$luku2" | bc
     ;;
     *)
     echo -e "\nYou must enter a number as input, either as an integer or as a floating point number."
