@@ -1,7 +1,7 @@
 # LINUX-BASICS 3 OP (NONSTOP)
 ## Free optional Linux Basics course.
 
-![penguin-158551_640-600x614](https://user-images.githubusercontent.com/53630914/213522980-e298543e-dd65-419e-ac67-007461c4ac5c.png)
+![tux-logo-9](https://user-images.githubusercontent.com/53630914/213523233-0c000218-366e-484c-926e-85817b50c25b.png)
 
 - These were the programs I wrote in the Bash scripting open tasks section.
 
